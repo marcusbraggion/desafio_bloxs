@@ -15,16 +15,22 @@ Sua missão é criar uma análise de dados, utilizando um dataset em SQL que ser
 
 ## 3.0 Business Assumptions
 
+![diagrama](https://user-images.githubusercontent.com/97288194/177666994-f9699595-b57a-4d21-95a8-a98466a50e8c.png)
+
 ## 4.0. Solução
 
-Utilizei Python, SQL e PowerBI para desenvolver a solução.
+Utilizei Python, SQL e PowerBI para desenvolver a solução. Com os passos abaixo:
 
 ### 4.1. Coleta Dos Dados e Descrição dos Dados
 
-Os dados foram coletados através de consultas a um banco de dados hospedado na nuvem utilizando Heroku.
+![pipeline](https://user-images.githubusercontent.com/97288194/177668403-9b9717e4-1c26-42d2-ada2-34385c51e058.png)
+
+Os dados foram cedidos através de um arquivo .sql com estrutura e dados de um database MySQL de dados de investidores ficticios. Para entregar uma solução mais completa possível, decidi subir esse banco em uma aplicação na nuvem utilizando Heroku, para isso, realizei a migração do banco para um database PostgreSQL.
+
+Como são bancos relacionais, mas de estruturas e syntax diferente, precisei processar cada tabela utilizando Python e fazendo uma carga do tipo sort (através de arquivo) no novo banco. Após isso, os dados foram coletados através de consultas.
 
 <details>
-<summary>Feature dos Dados Originais</summary>
+<summary>Dicionario dos Dados Originais</summary>
 
 investor (Dados do Investidor)
 
