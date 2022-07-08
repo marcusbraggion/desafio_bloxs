@@ -1,7 +1,5 @@
 # Desafio Bloxs - Insights
 
-<img src=""/>
-
 ## 1.0. Contexto
 
 A Bloxs é um ecossistema de acesso ao Mercado de Capitais, que conecta empresas com investidores de todo o mundo, democratizando os Ativos Alternativos!
@@ -11,7 +9,7 @@ A Bloxs é um ecossistema de acesso ao Mercado de Capitais, que conecta empresas
 Sua missão é criar uma análise de dados, utilizando um dataset em SQL que será disponibilizado ao final deste documento, que é referente a dados de usuários fictícios de uma plataforma de investimento, que realizaram aportes em determinados produtos de investimento. A ideia é criar um dashboard com as análises destes dados, utilizando gráficos, tabelas e o que achar necessário. Para isso foi desenvolvido:
 * Dashboard com Power BI;
 * Banco de Dados com as propriedades recomendadas;
-* Insights geradas pela validação das hipoteses.
+* Insights geradas pela Analise Exploratória de Dados.
 
 ## 3.0 Business Assumptions
 
@@ -25,7 +23,7 @@ Além disso utilizei Python, SQL e PowerBI para desenvolver os entregáveis. Com
 
 ### 4.1. Coleta Dos Dados e Descrição dos Dados
 
-![pipeline](https://user-images.githubusercontent.com/97288194/177668403-9b9717e4-1c26-42d2-ada2-34385c51e058.png)
+![pipeline](https://user-images.githubusercontent.com/97288194/178045780-bde7346e-f519-4356-aebf-0bf3a9490480.png)
 
 Os dados foram cedidos através de um arquivo .sql com estrutura e dados de um database MySQL de dados de investidores ficticios. Para entregar uma solução mais completa possível, decidi subir esse banco em uma aplicação na nuvem utilizando Heroku, para isso, realizei a migração do banco para um database PostgreSQL.
 
@@ -146,19 +144,9 @@ Aqui é onde eu derivei algumas informações de campos já existentes, criando 
 
 ### 4.4. Analise Exploratória dos Dados
 
-Verificação da distribuição das variáveis ​​e validação de hipóteses. Aqui eu já entreguei o primeiro resultado para o negócio, que foram os insights.
+Nesta esta eu verifiquei a distribuição dos atributos numéricos e categóricos. Aqui eu já entreguei o primeiro resultado para o negócio, que foram os insights. Você também pode acessar o Dashboard através do [link](https://app.powerbi.com/view?r=eyJrIjoiMzdmYTg5YzAtMjJiNS00YzNmLWIwNzUtMWNkMzliMTE5MDY2IiwidCI6IjUxZmY2M2JkLTU0MGUtNGZlYi04ZmQ2LWZiNzdiMTAwZDU5MSJ9).
 
-### 4.5. Criação do Dashboard
-
-Criei um dashboard com o Power BI para mostrar com visualização de dados os insights. O painel está disponível neste [link].
-
-Ele pode ser acessado em qualquer lugar com um smartphone, tablet ou desktop.
-
-Também fiz um [vídeo] com minhas próprias análises.
-
-## 5.0. Top Insights
-
-### Produtos de Investimentos
+## 4.5 Resultados
 
 **Insight 1.** Agronegócio é a operação mais realizada, seguido por Energia e Comercial.
 
@@ -172,22 +160,23 @@ Também fiz um [vídeo] com minhas próprias análises.
 
 **Insight 6.** Apesar da presença do negócio em outros países, Brasil é o pais com maior presença de usuários
 
-### Demais Insights
+## 5.0 Criação do Dashboard
 
-Disponivel neste [video].
+Criei um dashboard com o Power BI para mostrar com visualização de dados os insights. O painel está disponível neste [link](https://app.powerbi.com/view?r=eyJrIjoiMzdmYTg5YzAtMjJiNS00YzNmLWIwNzUtMWNkMzliMTE5MDY2IiwidCI6IjUxZmY2M2JkLTU0MGUtNGZlYi04ZmQ2LWZiNzdiMTAwZDU5MSJ9). Ele pode ser acessado em qualquer lugar com um smartphone, tablet ou desktop.
 
-## 6.0. Resultados
+## 6.0. Próximos Passos
 
-## 7.0. Próximos Passos
+* Crie um modelo de Machine Learning para identificar possíveis novos investidores na Base de Usuários.
 
-* Crie um modelo de Machine Learning para prever o preço de retorno por projeto com base nos dados históricos.
-* Coletar feedbacks do painéis e implementar melhorias.
+* Coletar feedbacks dos painéis e implementar melhorias.
 
-## 8.0. Ferramentas Utilizadas
+## 7.0. Ferramentas Utilizadas
 
 * Python
 * Power BI
+* DBeaver
 * Postgres
 * Heroku
 
 # Referencias
+https://conteudos.bloxs.com.br/investimentos-alternativos-o-que-e-tipos-como-funciona-e-como-investir
