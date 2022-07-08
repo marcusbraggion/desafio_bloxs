@@ -25,7 +25,7 @@ Além disso utilizei Python, SQL e PowerBI para desenvolver os entregáveis. Com
 
 ![pipeline](https://user-images.githubusercontent.com/97288194/178045780-bde7346e-f519-4356-aebf-0bf3a9490480.png)
 
-Os dados foram cedidos através de um arquivo .sql com estrutura e dados de um database MySQL de dados de investidores ficticios. Para entregar uma solução mais completa possível, decidi subir esse banco em uma aplicação na nuvem utilizando Heroku, para isso, realizei a migração do banco para um database PostgreSQL.
+Os dados foram cedidos através de um arquivo .sql com estrutura e dados de um database MySQL de dados de investidores fictícios. Para entregar uma solução mais completa possível, decidi subir esse banco em uma aplicação na nuvem utilizando Heroku, para isso, realizei a migração do banco para um database PostgreSQL.
 
 <details>
 <summary>Dicionario dos Dados Originais</summary>
@@ -144,9 +144,9 @@ Aqui é onde eu derivei algumas informações de campos já existentes, criando 
 
 ### 4.4. Analise Exploratória dos Dados
 
-Nesta esta eu verifiquei a distribuição dos atributos numéricos e categóricos. Aqui eu já entreguei o primeiro resultado para o negócio, que foram os insights. Você também pode acessar o Dashboard através do [link](https://app.powerbi.com/view?r=eyJrIjoiMzdmYTg5YzAtMjJiNS00YzNmLWIwNzUtMWNkMzliMTE5MDY2IiwidCI6IjUxZmY2M2JkLTU0MGUtNGZlYi04ZmQ2LWZiNzdiMTAwZDU5MSJ9).
+Nesta esta eu verifiquei a distribuição dos atributos numéricos e categóricos. Aqui eu já entreguei o primeiro resultado para o negócio, que foram os insights.
 
-## 4.5 Resultados
+## 4.5 Insights
 
 **Insight 1.** Agronegócio é a operação mais realizada, seguido por Energia e Comercial.
 
@@ -178,5 +178,5 @@ Criei um dashboard com o Power BI para mostrar com visualização de dados os in
 * Postgres
 * Heroku
 
-# Referencias
+# Referências
 https://conteudos.bloxs.com.br/investimentos-alternativos-o-que-e-tipos-como-funciona-e-como-investir
