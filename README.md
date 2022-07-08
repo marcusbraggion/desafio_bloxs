@@ -19,15 +19,15 @@ Sua missão é criar uma análise de dados, utilizando um dataset em SQL que ser
 
 ## 4.0. Solução
 
-Utilizei Python, SQL e PowerBI para desenvolver a solução. Com os passos abaixo:
+Utilizei um framework de projetos de Ciência de Dados (CRISP-DM) para desenvolver a solução do Desafio, por ser uma abordagem cíclica e de etapas definidas, eu pude em poucos dias desenvolver os entregáveis gerando valor para o negócio com o menor esforço-tempo possível, permitindo que a cada ciclo temos mais know-how do problema/projeto para decidir se devemos continuar ou pivotar a solução.
+
+Além disso utilizei Python, SQL e PowerBI para desenvolver os entregáveis. Com os passos abaixo:
 
 ### 4.1. Coleta Dos Dados e Descrição dos Dados
 
 ![pipeline](https://user-images.githubusercontent.com/97288194/177668403-9b9717e4-1c26-42d2-ada2-34385c51e058.png)
 
 Os dados foram cedidos através de um arquivo .sql com estrutura e dados de um database MySQL de dados de investidores ficticios. Para entregar uma solução mais completa possível, decidi subir esse banco em uma aplicação na nuvem utilizando Heroku, para isso, realizei a migração do banco para um database PostgreSQL.
-
-Como são bancos relacionais, mas de estruturas e syntax diferente, precisei processar cada tabela utilizando Python e fazendo uma carga do tipo sort (através de arquivo) no novo banco. Após isso, os dados foram coletados através de consultas.
 
 <details>
 <summary>Dicionario dos Dados Originais</summary>
@@ -140,15 +140,15 @@ name (Nome da categoria)
 
 ### 4.2. Feature Engineering
 
+Aqui é onde eu derivei algumas informações de campos já existentes, criando novos campos, adicionando informação ao conjunto de dados, como: dia, mês, ano, semana do ano.
+
 ### 4.3. Filtragem dos Dados
 
 ### 4.4. Analise Exploratória dos Dados
 
 Verificação da distribuição das variáveis ​​e validação de hipóteses. Aqui eu já entreguei o primeiro resultado para o negócio, que foram os insights.
 
-### 4.5. Criação do Banco de Dados
-
-### 4.6. Criação do Dashboard
+### 4.5. Criação do Dashboard
 
 Criei um dashboard com o Power BI para mostrar com visualização de dados os insights. O painel está disponível neste [link].
 
@@ -158,11 +158,19 @@ Também fiz um [vídeo] com minhas próprias análises.
 
 ## 5.0. Top Insights
 
-H1
+### Produtos de Investimentos
 
-H2
+**Insight 1.** Agronegócio é a operação mais realizada, seguido por Energia e Comercial.
 
-H3
+**Insight 2.** Equity é a modalidade de investimento mais operacionalizada.
+
+**Insight 3.** A média de aporte realizado está na faixa de 4000 mil reais.
+
+**Insight 4.** Google é o canal de aquisição de usuários mais efetivo, seguindo pela Instagram e depois a Indicação.
+
+**Insight 5.** Pessoas Físicas representam os usuários majoritariamente.
+
+**Insight 6.** Apesar da presença do negócio em outros países, Brasil é o pais com maior presença de usuários
 
 ### Demais Insights
 
